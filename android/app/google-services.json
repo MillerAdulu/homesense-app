@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "910654679544",
+    "firebase_url": "https://homesense-app.firebaseio.com",
+    "project_id": "homesense-app",
+    "storage_bucket": "homesense-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910654679544:android:201ec4e03f3cb42a",
+        "android_client_info": {
+          "package_name": "ke.co.milleradulu.homesense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910654679544-adn29dsb2ukfjae9hceofi1p92gkfnhv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ke.co.milleradulu.homesense",
+            "certificate_hash": "2f3ee7b458375f5ab0dca21c2acae6148f0d2fa4"
+          }
+        },
+        {
+          "client_id": "910654679544-h85pgkhveosh5c6o0llvpjernti1n6sp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrywAAJqzHboG1fXHQHFuZkNYESMD6u8o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910654679544-h85pgkhveosh5c6o0llvpjernti1n6sp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
