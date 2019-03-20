@@ -110,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void intrude() async {
     print('Intruding');
-    await http.post('https://homesenseapi.herokuapp.com/api/intrusions/1',
+    await http.post('https://homesenseapi.herokuapp.com/api/intrusions',
         headers: {HttpHeaders.contentTypeHeader: 'application/json'},
         body: json.encode({
           "intrusion": {"intrusion": false, "homesense_id": 1}
