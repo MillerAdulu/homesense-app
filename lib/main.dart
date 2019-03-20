@@ -46,6 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
     flutterLocalNotificationsPlugin = new FlutterLocalNotificationsPlugin();
     flutterLocalNotificationsPlugin.initialize(initializationSettings,
         onSelectNotification: onSelectNotification);
+    intrude();
     firebaseCloudMessagingListeners();
   }
 
@@ -105,6 +106,16 @@ class _MyHomePageState extends State<MyHomePage> {
         print('on launch $message');
       },
     );
+  }
+
+  void intrude() async {
+    print('Intruding');
+    await http.post('https://homesenseapi.herokuapp.com/api/intrusions/1',
+        headers: {HttpHeaders.contentTypeHeader: 'application/json'},
+        body: json.encode({
+          "intrusion": {"intrusion": false, "homesense_id": 1}
+        }));
+    print('Finished intruding');
   }
 
   @override
